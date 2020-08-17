@@ -116,6 +116,7 @@ hr {
   overflow-x: hidden;
   width: 75%;
   padding-top: 50px;
+  animation: fadeIn 1s ease 1 forwards;
 }
 
 .wrapper::-webkit-scrollbar-track
@@ -179,6 +180,21 @@ hr {
 li {
   font-size: 24px;
   list-style-type: circle;
+}
+
+/* ===============
+     Animations
+   =============== */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 
 /* ===============

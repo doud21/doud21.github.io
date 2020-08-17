@@ -119,6 +119,7 @@ hr {
   overflow-x: scroll; */
   width: 75%;
   padding-top: 50px;
+  animation: fadeIn 1s ease 1 forwards;
 }
 
 .wrapper::-webkit-scrollbar-track
@@ -156,6 +157,21 @@ hr {
   transform: scale(1.25);
   opacity: 0.3;
   transition: all 0.5s cubic-bezier(0, 1, 0.5, 1);
+}
+
+/* ===============
+     Animations
+   =============== */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 
 /* ===============
