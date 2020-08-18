@@ -82,7 +82,7 @@ a {
   height: 100%;
   width: 0%;
   transition: all 0.5s cubic-bezier(0, 1, 0.5, 1);
-  background: white;
+  background: rgb(255, 255, 255);
 }
 
 .animation-container:hover .animation-icon {
@@ -112,7 +112,6 @@ hr {
 .wrapper {
   height: 50%;
   margin: auto;
-  /* overflow-y: scroll; */
   overflow-x: hidden;
   width: 75%;
   padding-top: 50px;
@@ -203,7 +202,7 @@ li {
 
 footer {
   position: relative;
-  margin-top: 50px;
+  bottom: 5px;
 }
 
 .contact {
@@ -231,25 +230,8 @@ footer {
     Responsiveness
    =============== */
 
- /* .wrapper {
-   height: 500px;
-   overflow: scroll;
-   width: 85%;
- } */
-
-/* .wrapper::-webkit-scrollbar-track
-{
-   background: #F5F5F5;
-}
-
-.wrapper::-webkit-scrollbar
-{
-   width: 5px;
-   background: #F5F5F5;
-}
-
-.wrapper::-webkit-scrollbar-thumb
-{
-   background-color: #000000;
-   border: 2px solid #555555;
-} */
+@media only screen and (max-width: 1300px) {
+   .links {
+     font-size: 20px;
+   }
+ }

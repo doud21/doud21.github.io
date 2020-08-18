@@ -116,7 +116,6 @@ hr {
   align-items: flex-start;
   height: 50%;
   margin: auto;
-  overflow-y: scroll;
   overflow-x: hidden;
   width: 75%;
   padding-top: 50px;
@@ -143,6 +142,7 @@ hr {
 .photo {
   width: 250px;
   margin: auto;
+  padding-right: 20px;
 }
 
 .right {
@@ -184,7 +184,7 @@ li {
 
 footer {
   position: relative;
-  margin-top: 50px;
+  bottom: 5px;
 }
 
 .contact {
@@ -205,8 +205,15 @@ footer {
 
 .icon {
   width: 40px;
+  /* cursor: url('http://24.media.tumblr.com/tumblr_mdig6jktic1riysloo1_100.png'), progress; */
 }
 
 /* ===============
     Responsiveness
    =============== */
+
+@media only screen and (max-width: 1300px) {
+   .links {
+     font-size: 20px;
+   }
+ }
