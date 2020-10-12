@@ -112,7 +112,7 @@ html, body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px 200px;
   grid-gap: 100px;
   height: 50%;
   margin: auto;
