@@ -119,6 +119,7 @@ html, body {
   width: 75%;
   animation: fadeIn 1s ease 1 forwards;
   overflow-y: hidden;
+  overflow-x: scroll;
 }
 
 .wrapper::-webkit-scrollbar-track
